@@ -7,7 +7,7 @@ import {
   Button,
 } from '@mui/material';
 import { Email, LocationOn } from '@mui/icons-material';
-import logo2 from '../icons/henkel-logo-2.png'; 
+import logo3 from '../icons/henkel-logo-3.png'; 
 
 const Footer = () => {
   return (
@@ -15,7 +15,7 @@ const Footer = () => {
       <Container>
         <Grid container spacing={4}>
           <Grid item xs={12} md={6}>
-            <img src={logo2} alt="Henkel Logo" width={100} />
+            <img src={logo3} alt="Henkel Logo" width={100} />
             <Box mt={2}>
               <Box display="flex" alignItems="center" mb={1} mt={4}>
                 <Email sx={{ mr: 1, color: '#C32A2A' }} />

@@ -24,7 +24,7 @@ const Services = () => {
   ];
 
   return (
-    <Grid container>
+    <Grid container sx={{ backgroundColor: '#F5E67C' }}>
       <Grid item xs={12} md={12}>
         <img
           src={call}
@@ -38,12 +38,12 @@ const Services = () => {
           }}
         />
       </Grid>
-      <Grid item xs={12} md={6} sx={{ backgroundColor: '#fff', p: 4 }}>
-        <Typography variant="h5" fontWeight="bold" color="#C32A2A">
+      <Grid item xs={12} md={6} sx={{ backgroundColor: '#F5E67C', p: 4 }}>
+        <Typography variant="h5" fontWeight="bold" color="#E1000E">
           <Box component="span"sx={{fontFamily: "'henkel-bold', sans-serif", fontSize: '2.5rem',}}>
             SERVICES
           </Box>{' '}
-          <Box component="span" sx={{ fontFamily: "'henkel-thin-italic', sans-serif", color: '#C32A2A', fontSize: '2.5rem', }}>
+          <Box component="span" sx={{ fontFamily: "'henkel-thin-italic', sans-serif", color: '#E1000E', fontSize: '2.5rem', }}>
             OFFERED
           </Box>
         </Typography>
@@ -54,7 +54,7 @@ const Services = () => {
               primary={`• ${item}`}
               primaryTypographyProps={{
                 sx: {
-                  color: '#C32A2A',
+                  color: '#E1000E',
                   fontFamily: "'henkel-light', sans-serif", 
                   fontSize: '1.04rem'
                 },
