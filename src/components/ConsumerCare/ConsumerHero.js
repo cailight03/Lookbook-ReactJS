@@ -15,9 +15,16 @@ const Hero = () => {
               sx={{
                 fontFamily: "'henkel-black', sans-serif",
                 fontSize: '5rem',
-              }}
-            >
-              Consumer Service
+              }}>
+              CONSUMER{' '}
+              <Box
+                component="span"
+                sx={{
+                  fontFamily: "'henkel-black-italic', sans-serif", 
+                  fontSize: '5rem',
+                }}>
+                CARE
+              </Box>
             </Typography>
             <Typography
               variant="body1"
