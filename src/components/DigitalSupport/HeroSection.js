@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Container, Grid, Typography } from '@mui/material';
 import graphicon from '../icons/graph-icon.png'; 
 
-const Hero = () => {
+const DigitalHero = () => {
   return (
     <Box sx={{ backgroundColor: '#A2ECBA', py: 4, pt: '105px' }}>
       <Container>
@@ -37,6 +37,7 @@ const Hero = () => {
             <img
               src={graphicon}
               style={{ width: '100%', maxWidth: 200, marginLeft: '130px'  }}
+              alt='Digital Logo'
             />
           </Grid>
         </Grid>
@@ -45,4 +46,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default DigitalHero;

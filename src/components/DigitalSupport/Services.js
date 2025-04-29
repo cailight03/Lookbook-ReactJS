@@ -11,7 +11,7 @@ import {
 import { ArrowForward } from '@mui/icons-material';
 import graph from '../icons/graph.jpg'; 
 
-const Services = () => {
+const DigitalServices = () => {
   const serviceItems = [
     'Website Performance Analysis',
     'Campaign Performance Analysis',
@@ -81,4 +81,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default DigitalServices;
