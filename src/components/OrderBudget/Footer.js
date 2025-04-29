@@ -7,25 +7,25 @@ import {
   Button,
 } from '@mui/material';
 import { Email, LocationOn } from '@mui/icons-material';
-import logo3 from '../icons/henkel-logo-3.png'; 
+import logo2 from '../icons/henkel-logo-2.png'; 
 
 const Footer = () => {
   return (
-    <Box sx={{ backgroundColor: '#C32A2A', p: 4 }}>
+    <Box sx={{ backgroundColor: '#9ED4B2', p: 4 }}>
       <Container>
         <Grid container spacing={4}>
           <Grid item xs={12} md={6}>
-            <img src={logo3} alt="Henkel Logo" width={100} />
+            <img src={logo2} alt="Henkel Logo" width={100} />
             <Box mt={2}>
               <Box display="flex" alignItems="center" mb={1} mt={4}>
-                <Email sx={{ mr: 1, color: '#FFFFFF' }} />
-                <Typography color="#FFFFFF" sx={{fontFamily: "'Montserrat', sans-serif", fontSize: '.9rem', fontWeight: 'medium',}}>
+                <Email sx={{ mr: 1, color: '#C32A2A' }} />
+                <Typography color="#C32A2A" sx={{fontFamily: "'Montserrat', sans-serif", fontSize: '.9rem', fontWeight: 'medium',}}>
                   contact@henkel.com
                 </Typography>
               </Box>
               <Box display="flex" alignItems="center" mb={1}>
-                <LocationOn sx={{ mr: 1, color: '#FFFFFF' }} />
-                <Typography color="#FFFFFF" sx={{fontFamily: "'Montserrat', sans-serif", fontSize: '.9rem', fontWeight: 'medium',}}>
+                <LocationOn sx={{ mr: 1, color: '#C32A2A' }} />
+                <Typography color="#C32A2A" sx={{fontFamily: "'Montserrat', sans-serif", fontSize: '.9rem', fontWeight: 'medium',}}>
                   25th Floor, NEX Tower, 6786 Ayala Ave,<br /> Makati, 1223 Metro Manila
                 </Typography>
               </Box>
@@ -38,7 +38,7 @@ const Footer = () => {
               alignItems="flex-start"
               mt={11}
               sx={{
-                color: '#FFFFFF',
+                color: '#C32A2A',
                 ml: 30, // Move the whole box to the far right
                 mr: 4,      // Add more space from the center if needed
               }}

@@ -4,7 +4,7 @@ import oblogo from '../icons/orderbudget-logo.png';
 
 const Hero = () => {
   return (
-    <Box sx={{ backgroundColor: '#BDCDDA', py: 4, pt: '105px' }}>
+    <Box sx={{ backgroundColor: '#9ED4B2', py: 4, pt: '105px' }}>
       <Container>
         <Grid container spacing={4} alignItems="center">
           <Grid item xs={12} md={9}>

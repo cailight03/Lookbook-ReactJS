@@ -11,7 +11,7 @@ import logo3 from '../icons/henkel-logo-3.png';
 
 const MarketFooter = () => {
   return (
-    <Box sx={{ backgroundColor: '#185641', p: 4 }}>
+    <Box sx={{ backgroundColor: '#28315A', p: 4 }}>
       <Container>
         <Grid container spacing={4}>
           <Grid item xs={12} md={6}>

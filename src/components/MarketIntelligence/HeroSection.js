@@ -4,14 +4,14 @@ import MarketLogo from '../icons/market-intelligence-logo.png';
 
 const MarketHero = () => {
   return (
-    <Box sx={{ backgroundColor: '#185641', py: 4, pt: '105px' }}>
+    <Box sx={{ backgroundColor: '#28315A', py: 4, pt: '105px' }}>
       <Container>
         <Grid container spacing={4} alignItems="center">
           <Grid item xs={12} md={9}>
             <Typography
               variant="h3"
               fontWeight="bold"
-              color="#F5E67C"
+              color="#F9A700"
               sx={{
                 fontFamily: "'henkel-black', sans-serif",
                 fontSize: '4.5rem',
@@ -22,7 +22,7 @@ const MarketHero = () => {
             <Typography
               variant="body1"
               mt={2}
-              color="#F5E67C"
+              color="#F9A700"
               sx={{
                 fontFamily: "'Roboto Condensed', sans-serif",
                 fontSize: '1.2rem',
