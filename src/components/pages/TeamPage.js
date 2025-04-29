@@ -26,6 +26,14 @@ import MarketHero from '../MarketIntelligence/HeroSection';
 import MarketServices from '../MarketIntelligence/Services';
 import MarketFooter from '../MarketIntelligence/Footer';
 
+import CommunityHero from '../CommunityManagement/HeroSection';
+import CommunityServices from '../CommunityManagement/Services';
+import CommunityFooter from '../CommunityManagement/Footer';
+
+import ReviewHero from '../ReviewManagement/HeroSection';
+import ReviewServices from '../ReviewManagement/Services';
+import ReviewFooter from '../ReviewManagement/Footer';
+
 
 const TeamPage = () => {
   const { teamName } = useParams();
@@ -38,6 +46,22 @@ const TeamPage = () => {
             <ConsumerHero />
             <ConsumerServices />
             <ConsumerFooter />
+          </>
+        );
+        case 'CommunityManagement':
+        return (
+          <>
+            <CommunityHero />
+            <CommunityServices />
+            <CommunityFooter />
+          </>
+        );
+        case 'ReviewManagement':
+        return (
+          <>
+            <ReviewHero />
+            <ReviewServices />
+            <ReviewFooter />
           </>
         );
         case 'MarketIntelligence':

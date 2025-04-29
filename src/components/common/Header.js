@@ -2,9 +2,11 @@ import React from 'react';
 import { Link } from 'react-router-dom'; 
 import { AppBar, Toolbar, Button, Box, Typography } from '@mui/material';
 import logo from '../icons/henkel-logo.png';
+import { useNavigate } from 'react-router-dom';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';  // Import the dropdown icon
 
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <AppBar
       position="fixed"
@@ -36,7 +38,7 @@ const Header = () => {
                 textShadow: '0 0 1px rgba(255,255,255,0.8)',
                 borderBottom: '2px solid #C32A2A',
               },
-            }}>
+            }} onClick={() => navigate('/')}>
             Home
           </Button>
 

@@ -22,6 +22,20 @@ const HomePage = () => {
         <Button
           variant="contained"
           color="secondary"
+          onClick={() => navigate('/team/CommunityManagement')}
+        >
+          Community Management
+        </Button>
+        <Button
+          variant="contained"
+          color="secondary"
+          onClick={() => navigate('/team/ReviewManagement')}
+        >
+          Review Management
+        </Button>
+        <Button
+          variant="contained"
+          color="secondary"
           onClick={() => navigate('/team/MarketIntelligence')}
         >
           Market Intelligence
