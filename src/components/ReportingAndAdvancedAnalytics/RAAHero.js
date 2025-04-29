@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Container, Grid, Typography } from '@mui/material';
 import QueryStatsIcon from '@mui/icons-material/QueryStats';
 
-const Hero = () => {
+const RAAHero = () => {
   return (
     <Box sx={{ backgroundColor: '#BDCDDA', py: 4, pt: '105px' }}>
       <Container>
@@ -76,4 +76,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default RAAHero;

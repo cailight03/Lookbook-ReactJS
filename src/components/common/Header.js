@@ -103,15 +103,15 @@ const Header = () => {
                 minWidth: '175px',
               }}>
               {[
-                  { name: 'Digital Support', path: '/' },
-                  { name: 'WebStudio', path: '#' },
-                  { name: 'Market Intelligence', path: '#' },
-                  { name: 'Reporting & Advanced Analytics', path: '#' },
-                  { name: 'Sales Excellence Support', path: '#' },
-                  { name: 'Order & Budget', path: '#' },
-                  { name: 'Consumer Care', path: '/consumer-care' },
-                  { name: 'Community Management', path: '#' },
-                  { name: 'Review Management', path: '#' },
+                  { name: 'Digital Support', path: '/team/DigitalSupport' },
+                  { name: 'WebStudio', path: '/team/WebStudio' },
+                  { name: 'Market Intelligence', path: '/team/MarketIntelligence' },
+                  { name: 'Reporting & Advanced Analytics', path: '/team/RAA' },
+                  { name: 'Sales Excellence Support', path: '/team/SalesExcellence' },
+                  { name: 'Order & Budget', path: '/team/OrderBudget' },
+                  { name: 'Consumer Care', path: '/team/ConsumerCare' },
+                  { name: 'Community Management', path: '/team/CommunityManagement' },
+                  { name: 'Review Management', path: '/team/ReviewManagement' },
               ].map((team) => (
                 <Typography
                   key={team.name}

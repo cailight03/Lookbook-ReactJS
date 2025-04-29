@@ -9,7 +9,7 @@ import {
 import { Email, LocationOn } from '@mui/icons-material';
 import logo2 from '../icons/henkel-logo-2.png'; 
 
-const Footer = () => {
+const RAAFooter = () => {
   return (
     <Box sx={{ backgroundColor: '#BDCDDA', p: 4 }}>
       <Container>
@@ -91,4 +91,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default RAAFooter;

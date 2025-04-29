@@ -34,6 +34,11 @@ import ReviewHero from '../ReviewManagement/HeroSection';
 import ReviewServices from '../ReviewManagement/Services';
 import ReviewFooter from '../ReviewManagement/Footer';
 
+import RAAHero from '../ReportingAndAdvancedAnalytics/RAAHero';
+import RAAServices from '../ReportingAndAdvancedAnalytics/RAAServices';
+import RAAFooter from '../ReportingAndAdvancedAnalytics/RAAFooter';
+
+
 
 const TeamPage = () => {
   const { teamName } = useParams();
@@ -46,6 +51,14 @@ const TeamPage = () => {
             <ConsumerHero />
             <ConsumerServices />
             <ConsumerFooter />
+          </>
+        );
+        case 'RAA':
+        return (
+          <>
+            <RAAHero />
+            <RAAServices />
+            <RAAFooter />
           </>
         );
         case 'CommunityManagement':

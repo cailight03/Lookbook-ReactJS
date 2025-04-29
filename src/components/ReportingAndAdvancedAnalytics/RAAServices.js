@@ -1,9 +1,9 @@
 import React from 'react';
-import { Grid, Typography, List, ListItem, ListItemText, Button, Box } from '@mui/material';
+import { Grid, Typography, List, Button, Box } from '@mui/material';
 import { ArrowForward } from '@mui/icons-material';
 import analytics from '../icons/analytics.jpg';
 
-const Services = () => {
+const RAAServices = () => {
   const serviceItems = [
     {
       title: 'Export & Sales Support',
@@ -100,4 +100,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default RAAServices;
