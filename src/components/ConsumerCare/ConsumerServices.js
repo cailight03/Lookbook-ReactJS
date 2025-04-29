@@ -11,7 +11,7 @@ import {
 import { ArrowForward } from '@mui/icons-material';
 import call from '../icons/call.png'; 
 
-const Services = () => {
+const ConsumerServices = () => {
   const serviceItems = [
     'Attends to consumer’s inquiry, complaints, requests and feedbacks',
     'Provides recommendations as solutions to consumer’s complaints',
@@ -78,4 +78,4 @@ const Services = () => {
   );
 };
 
-export default Services;
+export default ConsumerServices;

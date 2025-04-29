@@ -2,7 +2,7 @@ import React from 'react';
 import { Box, Container, Grid, Typography } from '@mui/material';
 import headseticon from '../icons/headset-icon.png';
 
-const Hero = () => {
+const ConsumerHero = () => {
   return (
     <Box sx={{ backgroundColor: '#28315A', py: 4, pt: '105px' }}>
       <Container>
@@ -44,6 +44,7 @@ const Hero = () => {
             <img
               src={headseticon}
               style={{ width: '100%', maxWidth: 205, marginLeft: '130px'  }}
+              alt='Headset Icon'
             />
           </Grid>
         </Grid>
@@ -52,4 +53,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default ConsumerHero;
