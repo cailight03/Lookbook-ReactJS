@@ -1,5 +1,6 @@
 import React from 'react';
 import { Box, Typography, Grid, Container } from '@mui/material';
+import TeamsSection from './TeamsSection';
 import people from '../icons/people.jpg';
 import mshomepage from '../icons/ms-homepage.png';
 
@@ -208,7 +209,10 @@ const HomePage = () => {
       }}
     />
   </Box>
+  {/* Teams Section */}
+<TeamsSection />
     </Box>
+    
 
     
   );
