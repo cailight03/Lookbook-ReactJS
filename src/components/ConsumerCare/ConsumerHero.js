@@ -35,9 +35,11 @@ const ConsumerHero = () => {
                 fontSize: '1.2rem',
               }}
             >
-              The Digital Support Team is a group of passionate and dynamic team of experts that helps
+              Consumer Service has been Henkel’s first level contact for Henkel Consumer Brands. Our
               <br />
-              Henkel in achieving its goal of elevating its online presence and improve its digital landscape.
+              specialists are the voice of the company with extensive portfolio knowledge handling our
+              <br />
+              end-users' concerns via the toll-free hotline and other channels.
             </Typography>
           </Grid>
           <Grid item xs={12} md={5} textAlign="center">

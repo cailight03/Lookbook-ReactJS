@@ -46,26 +46,31 @@ const ConsumerServices = () => {
           </Box>
         </Typography>
         <List>
-          {serviceItems.map((item) => (
-            <ListItem key={item} disablePadding>
-              <ListItemText
-                primary={`• ${item}`}
-                primaryTypographyProps={{
-                  sx: {
-                    color: '#E1000E',
-                    fontFamily: "'henkel-light', sans-serif", 
-                    fontSize: '1.04rem'
-                  },
-                }}
-              />
-            </ListItem>))}
+        {serviceItems.map((item) => (
+    <ListItem key={item} sx={{ py: .3 }}> {/* ✅ Add vertical padding here */}
+      <ListItemText
+        primary={`• ${item}`}
+        primaryTypographyProps={{
+          sx: {
+            color: '#E1000E',
+            fontFamily: "'henkel-light', sans-serif",
+            fontSize: '1.04rem',
+            maxWidth: '320px',
+            maxHeight: '40px',
+            wordWrap: 'break-word',
+            whiteSpace: 'normal',       
+          },
+        }}
+      />
+    </ListItem>
+  ))}
         </List>
           <Button
             variant="contained"
             color="error"
             endIcon={<ArrowForward />}
             sx={{
-              mt: 2,
+              mt: 1,
               px: 5, // horizontal padding (controls button width)
               borderRadius: '30px', // rounded corners
               fontFamily: "'henkel-bold', sans-serif", // optional custom font  
